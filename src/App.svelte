@@ -7,8 +7,8 @@
   import { sleep } from "./util.js";
   import "./global.css";
 
-  const LUOXU_URL = "https://lab.lilydjwg.me/luoxu";
-  const islocal = LUOXU_URL.startsWith("http://localhost");
+  const LUOXU_URL = "http://claw.just-a-pony.net:9008/luoxu";
+  const islocal = LUOXU_URL.startsWith("https://luoxu.just-a-pony.net");
   let groups: { group_id: string; name: string }[] = $state([]);
   let group: string = $state();
   let query: string = $state();
