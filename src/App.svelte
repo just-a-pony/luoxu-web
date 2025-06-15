@@ -116,10 +116,10 @@
         error = "请选择要搜索的群组";
         return;
       }
-      if (!query && !islocal && !sender) {
-        error = "请输入搜索关键字";
-        return;
-      }
+//      if (!query && !islocal && !sender) {
+//        error = "请输入搜索关键字";
+//        return;
+//      }
       error = "";
       our_hash_change = true;
       console.log(
